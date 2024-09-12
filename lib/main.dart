@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       title: 'Flutter Web Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -23,7 +23,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter Web App'),
+        title: Text('Flutter App'),
       ),
       body: Center(
         child: Text('Olá, bem-vindo ao Flutter para Web!'),
